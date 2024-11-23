@@ -17,3 +17,6 @@ This script is a reverse shell written in PowerShell.
 
 5. Cleanup:
  - Once the connection is closed, all resources (the TCP client, stream, and readers/writers) are properly disposed of.
+
+
+![ReverseShell](https://github.com/user-attachments/assets/b05cdcf4-5fd6-4463-8802-2a53dcb3871b)
