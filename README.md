@@ -1,5 +1,5 @@
 # PowerShell_Reverse_Shell_AMSI_Bypass
-This script is a reverse shell written in PowerShell.
+This script is a reverse shell written in PowerShell capable of bypassing the Windows AMSI.
 
 1. Connection Setup:
  - It connects to a remote host (10.10.10.10) on port 4455 using a TCP client.
