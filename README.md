@@ -19,4 +19,4 @@ This script is a reverse shell written in PowerShell capable of bypassing the Wi
  - Once the connection is closed, all resources (the TCP client, stream, and readers/writers) are properly disposed of.
 
 
-![ReverseShell](https://github.com/user-attachments/assets/b05cdcf4-5fd6-4463-8802-2a53dcb3871b)
+![NVIDIA_Overlay_BDU4VW9QHK](https://github.com/user-attachments/assets/d3bf5bf8-f6eb-4169-abea-ee78e04e5834)
